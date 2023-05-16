@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import './style/breakpoints';
+
+// Fixing the width and height of container
+$container-width: 90%;
+$container-height: 80%;
+
+
+body {
+	// background: lightcoral;
+	background-image: url("./Assets/bg.jpg");
+	background-size: cover;
+	font-family: 'Press Start 2P', cursive;
+}
+
+
+.playArea {
+	border: 5px solid gray;
+	background-color: #502c7b;
+	width: $container-width;
+	height: $container-height;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+
+  
+  @include xs {
+    height: 50%;
+  }
+
+  @include lg {
+    height: 75%;
+    width: 75%;
+  }
+}
+
+
+
+#fruit {
+	display: none;
+	width: 30px;
+}
+
+
+.gameOver {
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: white;
+	font-size: 35px;
+}
+
+
+.playButton {
+	position: fixed;
+	bottom: 0;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: white;
+	background: #502c7b;
+	border: 2px solid white;
+	padding: 10px;
+	font-size: 0.9em;
+	color: white;
+	box-shadow: 4px 4px 0px 0px white;
+	font-family: 'Press Start 2P', cursive;
+	font-weight: 700;
+	letter-spacing: 5px;
+	text-transform: uppercase;
+
+  @include lg {
+    bottom: 5%;
+    padding: 1rem;
+  }
+
+  @include xxl {
+    bottom: 5%;
+    padding: 1rem;
+  }
+  
+}
+
+
+.scoreBox {
+	float: right;
+	margin: 10px 20px 0 0;
+	-webkit-box-shadow: 0px 4px 13px 0px rgba(48, 26, 74, 0.63);
+	box-shadow: 0px 4px 13px 0px rgba(48, 26, 74, 0.63);
+	text-align: center;
+
+  @include lg {
+    margin: 10px 30px 0 0;
+  }
+}
+
+
+h2 {
+	color: aqua;
+	font-size: 18px;
+	padding: 10px;
+
+  @include xxl{
+    font-size: 30px;
+  }
+}
