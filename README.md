@@ -1,4 +1,4 @@
-Creating a snake game using Reactjs/TypeScript and SCSS.
+Creating a snake game using TypeScript, HTML and SCSS.
 
 You can clone this repo and use it as mentioned below.
 This app will be  available at netlify and you can play it too there.
