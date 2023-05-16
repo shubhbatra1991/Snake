@@ -1,7 +1,7 @@
 Creating a snake game using TypeScript, HTML and SCSS.
 
 You can clone this repo and use it as mentioned below.
-This app will be  available at netlify and you can play it too there.
+This app is available at https://prismatic-paletas-9ee739.netlify.app/ and you can play it too there.
 
 
 
