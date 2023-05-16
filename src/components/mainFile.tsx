@@ -112,6 +112,7 @@ export default function MainFile() {
     
   return (
     <Fragment>
+		<h1>The game we love, Snake !!</h1>
         <div onKeyDown={(e) => changeDirection(e)}>
 			<img id="fruit" src={Apple} alt="fruit" />
 			<canvas className="playArea" ref={canvasRef} width={`${canvasX}px`} height={`${canvasY}px`} />
